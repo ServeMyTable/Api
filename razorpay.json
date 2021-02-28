@@ -1,0 +1,10 @@
+{
+    "RAZORPAYKEY" : "rzp_test_UDPM1IwrVssCAM",
+    "RAZORPAYSECRET" : "G3x7LvVBfO9QUPZEIIHuEBnt",
+    "MONTHLYPLAN" : "plan_Gf52wmXFM64csN",
+    "YEARLYPLAN" : "plan_Gf5FLIIDaByg35",
+    "FREETRIALPERIOD" : 30,
+    "MONTHLYPLANPRICE" : 100000, 
+    "YEARLYPLANPRICE" : 1000000,
+    "SECRETWEBHOOK" : "PaymentCapturedSecretRazorPay@199899"
+}
