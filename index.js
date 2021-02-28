@@ -16,6 +16,7 @@ app.use((req, res, next) => {
     next();
 });
 
+//Restaurant Routes
 app.use('/v1/users',require('./routes/v1/users'));
 app.use('/v1/profile',require('./routes/v1/profile'));
 app.use('/v1/auth',require('./routes/v1/auth'));
@@ -28,6 +29,12 @@ app.use('/v1/accounts',require('./routes/v1/accounts'));
 app.use('/v1/employee',require('./routes/v1/employees'));
 app.use('/v1/subscribe',require('./routes/v1/subscribe'));
 app.use('/v1/feedback',require('./routes/v1/feedback'));
+
+//Guest Routes
+app.use('/v2/auth',require('./routes/v2/auth'));
+app.use('/v2/restaurant',require('./routes/v2/restaurant'));
+app.use('/v2/table',require('./routes/v2/table'));
+app.use('/v2/feedback',require('./routes/v2/feedback'));
 
 app.listen(process.env.PORT || 5000,function(){ 
     console.log('Server is up and Running on http://localhost:5000'); 
